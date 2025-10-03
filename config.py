@@ -14,19 +14,19 @@ SHORT_TUT = "https://t.me/testingdb2/11"
 
 # Bot Configuration
 SESSION = "Sneha"
-TOKEN = ""
-API_ID = ""
-API_HASH = ""
+TOKEN = "6939544221:AAFD5XKtwEOh1_G2vol2OcxDx0VPrR419EU"
+API_ID = "23148998"
+API_HASH = "d948f2f1b811b3fa298cd10f9add3331"
 WORKERS = 5
 
 # mongo db
-DB_URI = "mongodb"
-DB_NAME = "yato"
+DB_URI = "Cluster0"
+DB_NAME = "mongodb+srv://riyav4:riyav4@cluster0.50dzn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 FSUBS = [[-1002238440461, True, 10]]
 # Database Channel (Primary)
-DB_CHANNEL=-1002196653821
+DB_CHANNEL = -1002196653821
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
