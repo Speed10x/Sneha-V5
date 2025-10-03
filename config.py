@@ -8,13 +8,13 @@ OWNER_ID = 5223903292
 
 MSG_EFFECT = 5046509860389126442
 
-SHORT_URL = "linkshortify.com" # shortner url 
-SHORT_API = "" 
-SHORT_TUT = "https://t.me/How_to_Download_7x/26"
+SHORT_URL = "api.gplinks.com" # shortner url 
+SHORT_API = "baf46457888030ccc3d4290d2c167fbec273ce0d" 
+SHORT_TUT = "https://t.me/testingdb2/11"
 
 # Bot Configuration
-SESSION = "yato"
-TOKEN = "642712"
+SESSION = ""
+TOKEN = ""
 API_ID = ""
 API_HASH = ""
 WORKERS = 5
@@ -26,7 +26,7 @@ DB_NAME = "yato"
 # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 FSUBS = [[-1002238440461, True, 10]]
 # Database Channel (Primary)
-DB_CHANNEL = ""
+DB_CHANNEL=-1002196653821
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
