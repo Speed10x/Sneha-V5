@@ -13,7 +13,7 @@ SHORT_API = "baf46457888030ccc3d4290d2c167fbec273ce0d"
 SHORT_TUT = "https://t.me/testingdb2/11"
 
 # Bot Configuration
-SESSION = ""
+SESSION = "Sneha"
 TOKEN = ""
 API_ID = ""
 API_HASH = ""
