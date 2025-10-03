@@ -14,14 +14,14 @@ SHORT_TUT = "https://t.me/testingdb2/11"
 
 # Bot Configuration
 SESSION = "Sneha"
-TOKEN = ""
-API_ID = ""
-API_HASH = ""
+TOKEN = os.environ.get("TOKEN", "8154426339")
+APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
 WORKERS = 5
 
 # mongo db
-DB_URI = ""
-DB_NAME = ""
+DB_URI = os.environ.get("DATABASE_URL", "")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 
 # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 FSUBS = [[-1002238440461, True, 10]]
